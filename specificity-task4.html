@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"/>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+            <title>Specificity-</title>
+            <style>
+                .blue-bg{
+                    background-color:blue;
+                }
+                .orange-bg{
+                    background-color: orange!important;
+                }
+                p{
+                    padding: 10px 10px ;
+                }
+            </style>
+        </head>
+        <body>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 m-5">
+                            <h1> What is a good short paragraph?</h1>
+                            <p>Various educators teach rules governing the length of paragraphs. They may say that a paragraph should be 100 to 200 words long, or be no more than five or six sentences.
+                             But a good paragraph should not be measured in characters, words, or sentences.</p>
+                             <h1></h1>
+                            <p>In antiquity, a paragraph often was a single thought—and often a single sentence, usually a very long one. Writers today, however, tend not to go on the way classical authors did.
+                             In academic writing, most paragraphs include at least three sentences, though rarely more than ten.</p>
+                             <h1></h1>
+                            <p class="blue-bg text-light">1 paragraph is 100 to 200 words for essays, 50 to 100 words for easy writing. 2 paragraphs is 200 to 400 words for essays, 100 to 200 words for easy writing.
+                             3 paragraphs is 300 to 600 words for essays, 150 to 300 words for easy writing.4 paragraphs is 400 to 800 words for essays, 200 to 400 words for easy writing.</p>
+                            <p class="blue-bg orange-bg ">Five sentences is usually the maximum guideline for a good paragraph and includes an introductory sentence (or the main idea of a paragraph), one to three supporting sentences, and a concluding sentence</p>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+        </body>
+    </html>
